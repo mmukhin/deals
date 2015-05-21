@@ -1,11 +1,20 @@
 html {
     background: #E0EFF1;
 }
+.emailbubble {
+    border-radius: 10px;
+    padding: 15px 15px 0 15px;
+    background: #fff;
+    display: inline-block;
+}
 .pink {
     color: #FF6B6B;
 }
 .color2 {
     color: #556270;
+}
+.center {
+    text-align: center;
 }
 h4 {
     color: #ff9252;
@@ -14,6 +23,8 @@ h4 {
     background: #FF6B6B !important;
     border-color: #cf5757 !important;
     color: #fff !important;
+    margin-left: 10px;
+    vertical-align: top;
 }
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -31,20 +42,19 @@ h4 {
 .section-description {
     margin-bottom: 1.2rem;
 }
+.phones {
+    margin: -5rem 0 0 0;
+}
+.phone {
+    top: 4rem;
+    max-width: 40%;
+    vertical-align: top;
+    position: relative;
+}
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.phones {
-    position: relative;
-}
-.phone {
-    position: relative;
-    max-width: 80%;
-    margin: 3rem auto -12rem;
-}
-.phone + .phone {
-    display: none;
-}
+
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -94,19 +104,9 @@ h4 {
         height: 165px;
     }
     .phone {
-        position: absolute;
-        top: -7rem;
-        right: 3rem;
+        top: 4rem;
         max-height: 362px;
         z-index: 3;
-    }
-    .phone + .phone {
-        top: -6rem;
-        display: block;
-        max-width: 73.8%;
-        right: 0;
-        z-index: 2;
-        max-height: 338px;
     }
     .hero-heading {
         font-size: 2.4rem;
@@ -133,13 +133,8 @@ h4 {
         margin-right: auto;
     }
     .phone {
-        top: -14rem;
-        right: 5rem;
-        max-height: 510px;
-    }
-    .phone + .phone {
-        top: -12rem;
-        max-height: 472px;
+        top: 4rem;
+        max-height: 515px;
     }
     .categories {
         padding: 15rem 0 8rem;
@@ -152,17 +147,13 @@ h4 {
         padding: 20rem 0 19rem;
     }
     .hero {
-        padding: 22rem 0;
+        padding: 12rem 0;
     }
     .hero-heading {
         font-size: 3.0rem;
     }
     .phone {
-        top: -16rem;
-        max-height: 615px;
-    }
-    .phone + .phone {
-        top: -14rem;
-        max-height: 570px;
+        top: 4rem;
+        max-height: 515px;
     }
 }
